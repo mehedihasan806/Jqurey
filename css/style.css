@@ -1,0 +1,121 @@
+body{
+	padding-bottom: 300px;
+}
+
+h3{
+	color: #119E03;
+}
+/*<!-- slide toggle  -->*/
+.flip,.panel{
+	color: #fff;
+	background-color: #000;
+	border:2px solid #febc38;
+	padding: 10px;	
+}
+.panel{
+	padding: 20px;
+	display: none;
+}
+/*<!-- slide toggle  -->*/
+/*JQUERY UI START*/
+/*dragable */
+#draggable { 
+	width: 150px;
+	 height: 150px; 
+	 padding: 0.5em;
+}
+/*draggable*/
+ /*dropable */
+ #draggable2 { 
+ 	width: 100px; 
+ 	height: 100px; 
+ 	padding: 0.5em; 
+ 	float: left; 
+ 	margin: 10px 10px 10px 0; 
+ }
+ #droppable { 
+ 	width: 150px; 
+ 	height: 150px; 
+ 	padding: 0.5em; 
+ 	float: left; 
+ 	margin: 10px; 
+ }
+ 
+ /*dropable */
+ 
+/*selectable*/
+#feedback { 
+	font-size: 1.4em; 
+}
+  #selectable .ui-selecting { 
+  	background: #FECA40; 
+  }
+  #selectable .ui-selected { 
+  	background: #F39814; 
+  	color: white; 
+  }
+  #selectable { 
+  	list-style-type: none; 
+  	margin: 0; 
+  	padding: 0; 
+  	width: 70%; 
+  }
+  #selectable li { 
+  	margin: 3px; 
+  	padding: 1.4em; 
+  	font-size: 0.4em; 
+  	height: 35px; 
+  }
+/*selectable*/
+/*sortable*/
+#sortable { 
+	list-style-type: none; 
+	margin: 0; 
+	padding: 0; 
+	width: 50%; 
+}
+  #sortable li { 
+  	margin: 0 3px 3px 3px; 
+  	padding: 0.4em; 
+  	padding-left: 1.5em; 
+  	font-size: 0.4em; 
+  	height: 35px; 
+  }
+  #sortable li span { 
+  	position: absolute; 
+  	margin-left: -1.3em; 
+  }
+/*sortable*/
+/*menu*/
+.ui-menu { 
+	width: 150px; 
+}
+/*menu*/
+/*color animation*/
+    .toggler { 
+    	width: 500px; 
+    	height: 200px; 
+    	position: relative; 
+    }
+    #button { 
+    	padding: .5em 1em;
+    	 text-decoration: none; 
+    	}
+    #effect {
+     width: 240px; 
+     height: 170px; 
+     padding: 0.4em; 
+     position: relative; 
+     background: #fff; 
+ }
+    #effect h3 { 
+    	margin: 0; 
+    	padding: 0.4em; 
+    	text-align: center; 
+    }
+/*color animation*/
+
+
+
+
+/*JQUERY UI START*/
